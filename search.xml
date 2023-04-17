@@ -24,10 +24,10 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Node</tag>
-        <tag>Blog</tag>
-        <tag>Framework</tag>
         <tag>Hexo</tag>
+        <tag>Blog</tag>
+        <tag>Node</tag>
+        <tag>Framework</tag>
       </tags>
   </entry>
   <entry>
@@ -626,10 +626,10 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Node</tag>
-        <tag>Blog</tag>
         <tag>Hexo</tag>
         <tag>NexT</tag>
+        <tag>Blog</tag>
+        <tag>Node</tag>
         <tag>Github</tag>
       </tags>
   </entry>
