@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/posts/4a17b156.html</url>
-    <content><![CDATA[<div class="note info"><p>Abstract: Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-</div>
-<span id="more"></span>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>UI</category>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Blog</tag>
-        <tag>Node</tag>
-        <tag>Framework</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo搭建NexT主题个人博客</title>
     <url>/posts/2add60ce.html</url>
     <content><![CDATA[<div class="note info"><p>摘要：Hexo 是一个快速、简洁且高效的博客框架。本文详细地记录了使用 Hexo 和 Github Pages 搭建个人博客网站的过程，博客采用 NexT 主题风格。</p>
 </div>
 
-<img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/11/15:03:34-image-20230411150333272.png" alt="image-20230411150333272" style="zoom: 80%;" />
+<p><img data-src="../images/cover/cover-1.webp"></p>
 
 <span id="more"></span>
 
@@ -237,13 +207,16 @@
 <p><strong>效果预览：</strong></p>
 <img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/16/15:48:44-image-20230416154843760.png" alt="image-20230416154843760" style="zoom: 80%;" />
 
-<h2 id="博文板块"><a href="#博文板块" class="headerlink" title="博文板块"></a>博文板块</h2><p><strong>样式配置文件</strong>中添加博文板块的CSS样式</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 博文板块</span></span><br><span class="line"><span class="comment">// 首篇文章</span></span><br><span class="line"><span class="selector-class">.post-block</span><span class="selector-pseudo">:first-of-type</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">20px</span> <span class="number">12px</span> <span class="number">20px</span> <span class="number">12px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#FCF5E5</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 非首篇文章</span></span><br><span class="line"><span class="selector-class">.posts-expand</span> <span class="selector-class">.post-block</span><span class="selector-pseudo">:not</span>(:first-of-type) &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">20px</span> <span class="number">12px</span> <span class="number">20px</span> <span class="number">12px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#FCF5E5</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="博文板块"><a href="#博文板块" class="headerlink" title="博文板块"></a>博文板块</h2><p><strong>站点配置文件</strong>搜索<code>index_generator</code>字段，设置主页博文列表篇数</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Home page setting</span></span><br><span class="line"><span class="comment"># path: Root path for your blogs index page. (default = &#x27;&#x27;)</span></span><br><span class="line"><span class="comment"># per_page: Posts displayed per page. (0 = disable pagination)</span></span><br><span class="line"><span class="comment"># order_by: Posts order. (Order by date descending by default)</span></span><br><span class="line"><span class="attr">index_generator:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">5</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>样式配置文件</strong>中添加博文板块的CSS样式</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 博文板块</span></span><br><span class="line"><span class="comment">// 首篇文章</span></span><br><span class="line"><span class="selector-class">.post-block</span><span class="selector-pseudo">:first-of-type</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">20px</span> <span class="number">12px</span> <span class="number">20px</span> <span class="number">12px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#FCF5E5</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 非首篇文章</span></span><br><span class="line"><span class="selector-class">.posts-expand</span> <span class="selector-class">.post-block</span><span class="selector-pseudo">:not</span>(:first-of-type) &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">20px</span> <span class="number">12px</span> <span class="number">20px</span> <span class="number">12px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#FCF5E5</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 分页条</span></span><br><span class="line"><span class="selector-class">.pagination</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">20px</span> <span class="number">12px</span> <span class="number">20px</span> <span class="number">12px</span>;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">5px</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">0.9</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">20px</span>;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">background-color</span>: <span class="number">#FCF5E5</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><strong>效果预览：</strong></p>
 <img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/16/16:41:52-image-20230416164151856.png" alt="image-20230416164151856" style="zoom:50%;" />
 
-
+<img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/18/01:52:10-image-20230418015210056.png" alt="image-20230418015210056" style="zoom:50%;" />
 
 <h1 id="页面"><a href="#页面" class="headerlink" title="页面"></a>页面</h1><h2 id="分类页面"><a href="#分类页面" class="headerlink" title="分类页面"></a>分类页面</h2><p>执行下面命令，创建分类页面</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
@@ -381,7 +354,7 @@
 
 
 <h3 id="结束标记"><a href="#结束标记" class="headerlink" title="结束标记"></a>结束标记</h3><p>在<code>neo-space/source/_data</code>下新建<strong>模板配置文件</strong><code>post-body-end.njk</code>，添加结束标语：</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;post-end-mark&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>--------本文结束<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-heart&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>感谢阅读--------<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;post-end-mark&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>-- 本文结束<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-heart&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span>&gt;</span>感谢阅读 --<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <p>在<strong>样式配置文件</strong>中添加标语样式</p>
 <figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 结束标志</span></span><br><span class="line"><span class="selector-class">.post-end-mark</span> &#123;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#b9b9b9</span>;</span><br><span class="line">  <span class="attribute">font-size</span>: <span class="number">16px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.fa-heart</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="number">#db0000</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -390,7 +363,7 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Define custom file paths.</span></span><br><span class="line"><span class="comment"># Create your custom files in site directory `source/_data` and uncomment needed files below.</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.njk</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.njk</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.njk</span></span><br><span class="line">  <span class="attr">postMeta:</span> <span class="string">source/_data/post-meta.njk</span></span><br><span class="line">  <span class="attr">postBodyEnd:</span> <span class="string">source/_data/post-body-end.njk</span></span><br><span class="line">  <span class="attr">footer:</span> <span class="string">source/_data/footer.njk</span></span><br><span class="line">  <span class="attr">bodyEnd:</span> <span class="string">source/_data/body-end.njk</span></span><br><span class="line">  <span class="comment">#variable: source/_data/variables.styl</span></span><br><span class="line">  <span class="comment">#mixin: source/_data/mixins.styl</span></span><br><span class="line">  <span class="attr">style:</span> <span class="string">source/_data/styles.styl</span></span><br></pre></td></tr></table></figure>
 
 <p><strong>效果预览：</strong></p>
-<img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/17/17:06:46-image-20230417170645833.png" alt="image-20230417170645833" style="zoom:67%;" />
+<img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/18/02:57:49-image-20230418025748331.png" alt="image-20230418025748331" style="zoom:67%;" />
 
 
 
@@ -413,6 +386,12 @@
 
 
 
+<h3 id="底部导航"><a href="#底部导航" class="headerlink" title="底部导航"></a>底部导航</h3><p>在<strong>样式配置文件</strong>中添加文章底部导航样式代码</p>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 底部导航</span></span><br><span class="line"><span class="selector-class">.post-nav</span> &#123;</span><br><span class="line">  <span class="attribute">border-top</span>: <span class="number">1px</span> solid <span class="number">#000000</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.post-nav-item</span> <span class="selector-tag">a</span><span class="selector-pseudo">:hover</span> &#123;</span><br><span class="line">  <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">27</span>, <span class="number">171</span>, <span class="number">248</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>效果预览：</strong></p>
+<img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/18/02:56:53-image-20230418025653015.png" alt="image-20230418025653015" style="zoom: 67%;" />
+
 <h3 id="统计信息"><a href="#统计信息" class="headerlink" title="统计信息"></a>统计信息</h3><ol>
 <li><p><strong>字数和阅读时长：</strong></p>
 <p>安装<code>hexo-symbols-count-time</code></p>
@@ -434,7 +413,7 @@
 <p><strong>效果预览：</strong></p>
 <img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/16/20:23:14-image-20230416202313519.png" alt="image-20230416202313519" style="zoom:80%;" />
 
-<div class="note success"><p>Tips：busuanzi阅读次数统计值在本地有异常，GitHub Pages部署后会正常显示</p>
+<div class="note success"><p>Tips：不蒜子是基于域名来进行统计计算的，所以通过 <code>localhost:4000</code> 端口访问的时候统计数据 PV 和 UV 都会异常的大，GitHub Pages部署后会正常显示</p>
 </div>
 
 
@@ -511,20 +490,20 @@
 <p><strong>效果预览：</strong></p>
 <img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/10/15:09:41-image-20230410150940884.png" alt="image-20230410150940884" style="zoom:80%;" />
 
-<h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><h2 id="图片弹框"><a href="#图片弹框" class="headerlink" title="图片弹框"></a>图片弹框</h2><p>fancybox 的特性：</p>
+<h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><h2 id="图片灯箱"><a href="#图片灯箱" class="headerlink" title="图片灯箱"></a>图片灯箱</h2><p>FancyBox 的特性：</p>
 <ul>
 <li>允许用鼠标和键盘上的四个方向键切换图片</li>
 <li>可以根据当前窗口大小自动调整弹出框的大小，改变浏览器窗口大小时，将会看到弹出框自动缩放了</li>
 <li>支持缩略图和按钮帮助导航</li>
 </ul>
-<p>NexT 主题已经内置了 fancybox 的支持，只需要在<strong>主题配置文件</strong>中进行开启即可：</p>
+<p>NexT 主题已经内置了 FancyBox 的支持，只需要在<strong>主题配置文件</strong>中进行开启即可：</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.</span></span><br><span class="line"><span class="comment"># For more information: https://fancyapps.com/fancybox</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
-<p>启用 fancybox 需要安装依赖，在<strong>主题配置文件</strong>中配置CDN</p>
+<p>启用 FancyBox 需要安装依赖，在<strong>主题配置文件</strong>中配置CDN</p>
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># The CDN provider of NexT internal scripts.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Warning: If you are using the latest master branch of NexT, please set `internal: local`</span></span><br><span class="line">  <span class="attr">internal:</span> <span class="string">local</span></span><br><span class="line">  <span class="comment"># The default CDN provider of third-party plugins.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Dependencies for `plugins: local`: https://github.com/next-theme/plugins</span></span><br><span class="line">  <span class="attr">plugins:</span> <span class="string">cdnjs</span></span><br><span class="line">  <span class="comment"># Custom CDN URL</span></span><br><span class="line">  <span class="comment"># For example:</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdn.jsdelivr.net/npm/$&#123;npm_name&#125;@$&#123;version&#125;/$&#123;minified&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdnjs.cloudflare.com/ajax/libs/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="attr">custom_cdn_url:</span> </span><br><span class="line">  <span class="attr">fancybox:</span> <span class="string">//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js</span></span><br><span class="line">  <span class="attr">fancybox_css:</span> <span class="string">//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css</span></span><br></pre></td></tr></table></figure>
 
 <p><strong>样式配置文件</strong>中配置图片标题不显示</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.post-body</span> <span class="selector-class">.image-caption</span> &#123;</span><br><span class="line">  <span class="attribute">visibility</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// FancyBox图片灯箱</span></span><br><span class="line"><span class="comment">// 图片标题</span></span><br><span class="line"><span class="selector-class">.post-body</span> <span class="selector-class">.image-caption</span> &#123;</span><br><span class="line">  <span class="attribute">visibility</span>: hidden;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.post-body</span> <span class="selector-class">.fancybox</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">  <span class="attribute">cursor</span>: zoom-in;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><strong>效果预览：</strong></p>
 <img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/16/21:27:16-image-20230416212715345.png" alt="image-20230416212715345" style="zoom: 50%;" />
@@ -563,7 +542,7 @@
 <figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Easily enable fast Ajax navigation on your website.</span></span><br><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-pjax</span></span><br><span class="line"><span class="attr">pjax:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
 
 <p>在<strong>样式配置文件</strong>中添加音乐播放器的CSS样式</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 音乐播放器</span></span><br><span class="line"><span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-fixed</span> <span class="selector-class">.aplayer-lrc</span> &#123;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">62px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-fixed</span> <span class="selector-class">.aplayer-body</span> &#123;</span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">300px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.aplayer</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">300px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 音乐播放器</span></span><br><span class="line"><span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-fixed</span> <span class="selector-class">.aplayer-lrc</span> &#123;</span><br><span class="line">  <span class="attribute">bottom</span>: <span class="number">62px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.aplayer</span><span class="selector-class">.aplayer-fixed</span> <span class="selector-class">.aplayer-body</span> &#123;</span><br><span class="line">  <span class="attribute">max-width</span>: <span class="number">300px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.aplayer</span> &#123;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">300px</span> <span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.aplayer</span> <span class="selector-class">.aplayer-list</span> <span class="selector-tag">ol</span> <span class="selector-tag">li</span> &#123;</span><br><span class="line">  <span class="attribute">text-align</span>: left;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><strong>效果预览：</strong></p>
 <img data-src="https://typora-image-pack.oss-cn-shenzhen.aliyuncs.com/img/2023/04/16/21:52:40-image-20230416215239246.png" alt="image-20230416215239246" style="zoom: 67%;" />
@@ -626,10 +605,10 @@
         <category>Hexo</category>
       </categories>
       <tags>
+        <tag>Node</tag>
+        <tag>Blog</tag>
         <tag>Hexo</tag>
         <tag>NexT</tag>
-        <tag>Blog</tag>
-        <tag>Node</tag>
         <tag>Github</tag>
       </tags>
   </entry>
@@ -638,11 +617,14 @@
     <url>/posts/f0c7fe7e.html</url>
     <content><![CDATA[<div class="note info"><p>摘要：本文收录了平时常用的网站资源链接，方便以后检索。</p>
 </div>
+<p><img data-src="../images/cover/cover-2.webp"></p>
+
 <span id="more"></span>
+
 <h1 id="学习平台"><a href="#学习平台" class="headerlink" title="学习平台"></a>学习平台</h1><h2 id="菜鸟教程"><a href="#菜鸟教程" class="headerlink" title="菜鸟教程"></a><a href="https://www.runoob.com/">菜鸟教程</a></h2><p>一站式编程基础学习</p>
 <h2 id="W3School"><a href="#W3School" class="headerlink" title="W3School"></a><a href="https://www.w3school.com.cn/">W3School</a></h2><p>领先的Web技术教程-全部免费</p>
 <hr>
-<h1 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h1><h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">JavaScript</a></h2><h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML</a></h2><h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS</a></h2><h2 id="ElementUI"><a href="#ElementUI" class="headerlink" title="ElementUI"></a><a href="https://element.eleme.cn/#/zh-CN/component/installation">ElementUI</a></h2><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a><a href="https://hexo.io/docs/">Hexo</a></h2><hr>
+<h1 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h1><h2 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">JavaScript</a></h2><h2 id="Nunjucks"><a href="#Nunjucks" class="headerlink" title="Nunjucks"></a><a href="https://www.nunjucks.cn/">Nunjucks</a></h2><h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML</a></h2><h2 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS</a></h2><h2 id="Animate-css"><a href="#Animate-css" class="headerlink" title="Animate.css"></a><a href="https://animate.style/">Animate.css</a></h2><h2 id="ElementUI"><a href="#ElementUI" class="headerlink" title="ElementUI"></a><a href="https://element.eleme.cn/#/zh-CN/component/installation">ElementUI</a></h2><h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a><a href="https://hexo.io/docs/">Hexo</a></h2><h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a><a href="https://www.markdownguide.org/basic-syntax/">Markdown</a></h2><hr>
 <h1 id="技能训练"><a href="#技能训练" class="headerlink" title="技能训练"></a>技能训练</h1><h2 id="LeetCode"><a href="#LeetCode" class="headerlink" title="LeetCode"></a><a href="https://leetcode.cn/">LeetCode</a></h2><p>算法测试</p>
 <hr>
 <h1 id="代码托管"><a href="#代码托管" class="headerlink" title="代码托管"></a>代码托管</h1><h2 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a><a href="https://github.com/">GitHub</a></h2><p>世界上最大的代码托管平台，超7千万开发者正在使用</p>
@@ -652,16 +634,20 @@
 <hr>
 <h1 id="云服务"><a href="#云服务" class="headerlink" title="云服务"></a>云服务</h1><h2 id="阿里云"><a href="#阿里云" class="headerlink" title="阿里云"></a><a href="https://www.aliyun.com/">阿里云</a></h2><p>为了无法计算的价值</p>
 <hr>
-<h1 id="设计素材"><a href="#设计素材" class="headerlink" title="设计素材"></a>设计素材</h1><h2 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a><a href="https://fontawesome.com/">Font Awesome</a></h2><p>图标字体库</p>
+<h1 id="设计素材"><a href="#设计素材" class="headerlink" title="设计素材"></a>设计素材</h1><h2 id="颜色代码表"><a href="#颜色代码表" class="headerlink" title="颜色代码表"></a><a href="https://www.ysdaima.com/">颜色代码表</a></h2><h2 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a><a href="https://fontawesome.com/">Font Awesome</a></h2><p>图标字体库</p>
 <h2 id="iconfont-阿里巴巴"><a href="#iconfont-阿里巴巴" class="headerlink" title="iconfont-阿里巴巴"></a><a href="https://www.iconfont.cn/">iconfont-阿里巴巴</a></h2><p>图标字体库</p>
 <h2 id="IONOS"><a href="#IONOS" class="headerlink" title="IONOS"></a><a href="https://www.ionos.com/tools/favicon-generator#tool">IONOS</a></h2><p>网页图标生成器</p>
 <h2 id="Unsplash"><a href="#Unsplash" class="headerlink" title="Unsplash"></a><a href="https://unsplash.com/">Unsplash</a></h2><p>图片库</p>
 <h2 id="Pixabay"><a href="#Pixabay" class="headerlink" title="Pixabay"></a><a href="https://pixabay.com/">Pixabay</a></h2><p>图片库</p>
+<h2 id="wallhaven"><a href="#wallhaven" class="headerlink" title="wallhaven"></a><a href="https://wallhaven.cc/">wallhaven</a></h2><p>图片库</p>
+<h2 id="EZGIF"><a href="#EZGIF" class="headerlink" title="EZGIF"></a><a href="https://ezgif.com/">EZGIF</a></h2><p>图片格式转WebP以及压缩</p>
 <hr>
 <h1 id="电子图书"><a href="#电子图书" class="headerlink" title="电子图书"></a>电子图书</h1><h2 id="易书"><a href="#易书" class="headerlink" title="易书"></a><a href="https://yibook.org/">易书</a></h2><p>综合性电子书解决方案</p>
 <hr>
 <h1 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h1><h2 id="Evan-blog"><a href="#Evan-blog" class="headerlink" title="Evan blog"></a><a href="https://alexpop.gitee.io/">Evan blog</a></h2><p>前端</p>
 <h2 id="叶落阁"><a href="#叶落阁" class="headerlink" title="叶落阁"></a><a href="https://yelog.org/">叶落阁</a></h2><p>渲染优化</p>
+<h2 id="个人日记"><a href="#个人日记" class="headerlink" title="个人日记"></a><a href="http://yearito.cn/">个人日记</a></h2><p>博客部署</p>
+<h2 id="小丁"><a href="#小丁" class="headerlink" title="小丁"></a><a href="https://tding.top/archives/aad98408.html">小丁</a></h2><p>博客部署</p>
 ]]></content>
       <categories>
         <category>Collection</category>
@@ -693,5 +679,15 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>UI</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Node</tag>
+        <tag>Blog</tag>
+        <tag>Framework</tag>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
 </search>
